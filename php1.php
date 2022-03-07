@@ -1,4 +1,4 @@
 <php>
 
-
-phpleft{};
+  11234
+  phpinfo();
