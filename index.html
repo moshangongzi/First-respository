@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小学生四则运算</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./bootstrap/js/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/echarts.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- <h1>小学生四则运算</h1> -->
+        <div class="outer"><span class="inner">计时：</span><span id="id_M">00：</span><span id="id_S">00</span></div>
+        <h2>第<span> 1 </span>轮</h2>
+        <div class="score">得分：<span class="scores">0</span></div>
+        <div class="chart_box">
+            <form action="" method="">
+                <input type="button" id="chart_btn" value="成绩图表" />
+            </form>
+            <!-- 成绩图表模态框 -->
+            <div class="modal fade" tabindex="-1" role="dialog" id="chartModel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">成绩图表</h4>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 图表 -->
+                            <div class="chart"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default closed" data-dismiss="modal">关闭</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容：题目 -->
+    <div class="content" >
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="test_btn">
+            <button class="exit_sys">退出系统</button>
+            <button class="btn_test">开始测试</button>
+            <form action="" method="">
+                <input type="button" id="end" value="提交" />
+            </form>
+        </div>
+    </div>
+   
+</body>
+
+</html>

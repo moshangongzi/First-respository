@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/register.js"></script>
+</head>
+<body>
+      <!-- 头部标题 -->
+      <div class="title">
+        <img src="./images/title3.png" alt="">
+    </div>
+    <!-- 登陆注册页面 -->
+    <div id="register" class="register">
+        <div id="title" class="register-title">注册</div>
+        <div class="register-input-content">
+            <div class="register-input">
+                <label>用户名：</label>
+                <input type="text" placeholder="请输入用户名" id="username" class="list-input">
+                <text class="wrong-uname-tips">请正确输入用户名</text>
+            </div>
+            <div class="register-input">
+                <label>登录密码：</label>
+                <input type="password" placeholder="请输入密码" id="password" class="list-input">
+                <text class="wrong-pwd-tips">请正确输入密码</text>           
+            </div>
+            <div class="register-input">
+                <label>确认密码：</label>
+                <input type="password" placeholder="请输入密码" id="repass" class="list-input">
+                <text class="conflict-pwd">两次密码输入不一致</text>
+            </div>
+        </div>
+        <div id="registerBtn" class="register-button">
+            <input type="submit" id="register-button-submit" value="注册">
+            <input type="reset" value="重置" id="reset-button">
+        </div>
+    </div>
+</body>
+</html>
